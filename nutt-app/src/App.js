@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Hello from './Hello';
 import JSXExamples from './components/JSXExamples';
+import Goodbye from './Goodby';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <Goodbye />
+
     </div>
   );
 }
